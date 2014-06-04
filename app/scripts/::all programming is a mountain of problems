@@ -1,0 +1,28 @@
+//all programming is a mountain of problems
+//function(done) *** done()
+//
+//mocha timeout -- google
+
+
+it("should", function(done){
+	
+	this.timeout(14000);
+
+	var randomDelay = math.floor(math.random() * 6500 + 500)
+    consol.log('testing delay with arg of', randomDelay, 'ms')
+	slider (randomDelay);
+})
+
+==========================================
+==========================================
+take current project			  <|	||
+make into constructor 			  <|	||
+add configurability				  <|	||
+work on tests before all of this ---	||
+ refactor all 							||
+ 										||
+ "whiteboard image slider"				||
+==========================================
+==========================================
+
+
